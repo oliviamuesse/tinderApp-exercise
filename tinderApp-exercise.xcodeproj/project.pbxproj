@@ -13,6 +13,8 @@
 		45085C6519E384BD00D586D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45085C6419E384BD00D586D5 /* Images.xcassets */; };
 		45085C6819E384BD00D586D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45085C6619E384BD00D586D5 /* LaunchScreen.xib */; };
 		45085C7419E384BD00D586D5 /* tinderApp_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45085C7319E384BD00D586D5 /* tinderApp_exerciseTests.swift */; };
+		45085C7E19E3850C00D586D5 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45085C7D19E3850C00D586D5 /* CardsViewController.swift */; };
+		45085C8019E391D300D586D5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45085C7F19E391D300D586D5 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		45085C6D19E384BD00D586D5 /* tinderApp-exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinderApp-exerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45085C7219E384BD00D586D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45085C7319E384BD00D586D5 /* tinderApp_exerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderApp_exerciseTests.swift; sourceTree = "<group>"; };
+		45085C7D19E3850C00D586D5 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		45085C7F19E391D300D586D5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				45085C5D19E384BD00D586D5 /* AppDelegate.swift */,
 				45085C5F19E384BD00D586D5 /* ViewController.swift */,
+				45085C7D19E3850C00D586D5 /* CardsViewController.swift */,
+				45085C7F19E391D300D586D5 /* ProfileViewController.swift */,
 				45085C6119E384BD00D586D5 /* Main.storyboard */,
 				45085C6419E384BD00D586D5 /* Images.xcassets */,
 				45085C6619E384BD00D586D5 /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				45085C6019E384BD00D586D5 /* ViewController.swift in Sources */,
 				45085C5E19E384BD00D586D5 /* AppDelegate.swift in Sources */,
+				45085C8019E391D300D586D5 /* ProfileViewController.swift in Sources */,
+				45085C7E19E3850C00D586D5 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
